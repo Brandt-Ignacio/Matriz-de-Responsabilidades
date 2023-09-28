@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+.container{
+    border: 3px solid #000;
+    height: 510px;
+    width: 300px;
+}
+.container1{
+    border: 3px solid #000;
+    height: 450px;
+    width: 300px;
+}
+.container2{
+    border: 3px solid #000;
+    height: 504,5px;
+    width: 300px;
+}
+
+.cabeza{
+    background-color: hsl(249, 100%, 50%);
+}
+.pie{
+    background-color: hsl(249, 86%, 57%);
+    height: 100px;
+    text-align: center;
+}
+#botton-form {
+    background-color: hsl(249, 100%, 50%);
+}
+
+/*iniciar_sesion*/
+
+#login-form {
+    text-align: center;
+}
+
+#login-form input,
+#login-form button,
+#login-form a {
+    display: block;
+    margin: 10px auto;
+}
+
+/*registrarse*/
+
+#register-form {
+    text-align: center;
+}
+
+#register-form input,
+#register-form button,
+#register-form a {
+    display: block;
+    margin: 10px auto;
+}
+
+/*cambiar_contraseña*/
+
+#forgot-password-form {
+    text-align: center;
+}
+
+#forgot-password-form input,
+#forgot-password-form button,
+#forgot-password-form a {
+    display: block;
+    margin: 10px auto;
+}

@@ -1,0 +1,48 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border: 2px solid #000;
+  }
+.barra {
+    background-color: hsl(249, 100%, 50%);
+    width: 200px;
+    height: 750px;
+    /*quiero hacer que el boton se ponga blanco y la letra negra cdo lo toco*/
+}
+
+.img{
+    height: 50px;
+    width: auto;
+}
+
+.barra ul {
+    list-style-type: none;
+}
+  
+.barra li {
+    margin-bottom: 30px;
+}
+
+.barra a {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    background-color: #fff; /* Cambia el color de fondo cuando el mouse pasa por encima del enlace */
+    color: #000; /* Cambia el color de letra cuando el mouse pasa por encima del enlace */
+}
+  
+a:active {
+    background-color: #fff; /* Cambia el color de fondo cuando se hace clic en el enlace */
+    color: hsl(249, 100%, 50%); /* Cambia el color de letra cuando se hace clic en el enlace */
+}
+  
+.cuerpo {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
