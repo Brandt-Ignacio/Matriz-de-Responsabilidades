@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadro de Proyectos</title>
+    <link rel="stylesheet" href="styleProyectos.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="logo.jpeg" />
+</head>
+<body>
+    <div class="arriba">
+        <div>
+            <h1>MATRIZ DE RESPINSABILIDADES</h1>
+            <H2>Proyectos</H2>
+        </div>
+    </div>   
+        <div class="cuadro-proyectos">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Responsable comercial</th>
+                        <th>Responsable de gestion</th>
+                        <th>fecha de inicio ideal/real</th>
+                        <th>fecha de fin ideal/real</th>
+                        <th>Listado de recursos asignados</th>
+                        <th>Dedicacion de recursos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="NombreP" data-index="0"><input type="text" class="NombreP-input" placeholder="Publicidad"></td>
+                        <td><input type="text" class="tipo-input" placeholder="Proyecto"></td>
+                        <td><input type="text" class="Respcomercial-input" placeholder="Jhon Doe"></td>
+                        <td><input type="text" class="Respgestion-input" placeholder="Jhon Doe"></td>
+                        <td><input type="text" class="Inicio-input" placeholder="01/08/23 - 02/08/23"></td>
+                        <td><input type="text" class="Fin-input" placeholder="01/11/23 - 12/11/23"></td>
+                        <td><input type="text" class="Listado-input" placeholder="Diseñador grafico"></td>
+                        <td><input type="text" class="Dedicacion-input" placeholder="20%"></td>
+                        <td><i class="fas fa-trash eliminar-fila"></i></td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <button class="agregar-fila">Agregar Fila</button>
+        </div> 
+        
+    
+</body>
+</html>

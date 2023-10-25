@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadro de Empleados</title>
+    <link rel="stylesheet" href="styleEmpleados.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="logo.jpeg" />
+    <script src='https://code.jquery.com/jquery.com/jquery-3.7.1.min.js'></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <div class="arriba">
+        <div>
+            <h1>MATRIZ DE RESPINSABILIDADES</h1>
+            <H2>Personas</H2>
+        </div>
+    </div>   
+        <div class="cuadro-empleados">
+            <table>
+                <thead>
+                    <tr>
+                        <th>DNI</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Disponibilidad</th>
+                        <th>Rol</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="dni" data-index="0"><input type="text" class="dni-input" placeholder="12345678"></td>
+                        <td><input type="text" class="nombre-input" placeholder="Jhon"></td>
+                        <td><input type="text" class="apellido-input" placeholder="Doe"></td>
+                        <td><input type="text" class="disponibilidad-input" placeholder="07:00 a 13:00"></td>
+                        <td><input type="text" class="rol-input" placeholder="Diseñador"></td>
+                        <td><i class="fas fa-trash eliminar-fila"></i></td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <button class="agregar-fila">Agregar Fila</button>
+        </div> 
+        
+</body>
+</html>

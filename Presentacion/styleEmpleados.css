@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+   background-color: rgb(236, 234, 234);
+}
+
+.arriba {
+    margin: 0;
+    background-image: linear-gradient(to right top, #070537, #0e2d63, #125491, #117ebf, #12abeb);
+    color: #fff;
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cuadro-empleados {
+    margin: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+/*tachito de basura */
+.eliminar-fila {
+    color: #000; /* Color rojo para el tachito de basura */
+    font-size: 20px; /* Tamaño del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del ícono */
+}
+
+input {
+    border: none; /* Elimina el borde del cuadro de entrada */
+    background: transparent; /* Establece el fondo como transparente */
+    width: 100%; /* Ocupa todo el ancho de la celda */
+    box-sizing: border-box; /* Incluye el ancho del borde y el relleno en el 100% de ancho */
+}
+
+thead {
+    background-image: linear-gradient(to right top, #070537, #0e2d63, #125491, #117ebf, #12abeb);
+    color: #fff;
+}
+
+.agregar-fila {
+    display: block;
+    margin: 20px;
+}
